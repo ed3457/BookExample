@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
-
+#include "Book.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	Book b1;
+
+	b1.displayBookInfo();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
